@@ -60,7 +60,6 @@
     <Compile Include="Logo.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TM.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
