@@ -15,15 +15,22 @@ namespace Hanging
             Greetings();
 
             int userChoice = 0;
-            while (!int.TryParse(Console.ReadLine(), out userChoice))
+            bool wrongUserChoiceInput = true;
+            while (wrongUserChoiceInput)
             {
-                Console.WriteLine("Моля, въведете число!");
-                Console.WriteLine("За Държави - 1");
-                Console.WriteLine("За Градове - 2");
-                Console.WriteLine("За Други   - 3");
+                while (!int.TryParse(Console.ReadLine(), out userChoice))
+                {
+                    Console.WriteLine("Моля, въведете число!");
+                    Console.WriteLine("За Държави - 1");
+                    Console.WriteLine("За Градове - 2");
+                    Console.WriteLine("За Други   - 3");
+                }
+                if (userChoice == 1 || userChoice == 2 || userChoice == 3)
+                {
+                    wrongUserChoiceInput = false;
+                }
+                ChangeTopic(userChoice);
             }
-
-            ChangeTopic(userChoice);
         }
 
         /// <summary>
@@ -31,14 +38,19 @@ namespace Hanging
         /// </summary>
         static void ValidateUserInput()
         {
-         
+
         }
 
         /// <summary>
         /// This method selects the topic with questions
         /// </summary>
+        /// 
+
         static void ChangeTopic(int topic)
         {
+
+
+
             if ((topic == 1) || (topic == 2) || (topic == 3))
             {
 
@@ -68,17 +80,48 @@ namespace Hanging
             }
             else
             {
-                Console.WriteLine("Невалидна категория! Опитайте пак!");
+                Console.WriteLine("Невалидна категория! Моля въведете вашата категория отново:");
 
             }
+
         }
 
         /// <summary>
         /// Set Level of difficulty in section Others
         /// </summary>
-        static void ChangeLevel()
+        static int ChangeLevel()
         {
-            Console.WriteLine("Моля, изберете нивото на трудност: 1, 2 или 3: ");
+            Console.WriteLine("Моля, изберете нивото на трудност: 1-Easy , 2-Medium , 3-Hard : ");
+            int levelOfDifficulty = 0;
+            bool wrongUserChoiceInput = true;
+            while (wrongUserChoiceInput)
+            {
+                levelOfDifficulty = int.Parse(Console.ReadLine());
+                if (levelOfDifficulty == 1)
+                {
+                    wrongUserChoiceInput = false;
+                    Console.WriteLine("Избрахте ниво на трудност Easy .");
+                    
+                }
+                else if (levelOfDifficulty == 2)
+                {
+                    wrongUserChoiceInput = false;
+                    Console.WriteLine("Избрахте ниво на трудност Medium .");
+                    
+                }
+                else if (levelOfDifficulty == 3)
+                {
+                    wrongUserChoiceInput = false;
+                    Console.WriteLine("Избрахте ниво на трудност Hard .");
+                    
+                }
+                else
+                {
+                    Console.WriteLine("Моля, изберете коректно ниво на трудност:");
+                }
+                
+            }
+            return levelOfDifficulty;
             //TODO
         }
 
@@ -89,23 +132,32 @@ namespace Hanging
         {
             int numberOfPlayers = 0;
             Console.Write("Изберете брой играчи: 1 или 2 -->> ");
-            while (!int.TryParse(Console.ReadLine(), out numberOfPlayers))
+            bool wrongUserChoiceInput = true;
+            while (wrongUserChoiceInput)
             {
-                Console.WriteLine("Моля, въведете коректен брой играчи! 1 или 2");
-            }
+                while (!int.TryParse(Console.ReadLine(), out numberOfPlayers))
+                {
+                    Console.WriteLine("Моля, въведете коректен брой играчи! 1 или 2:");
+                }
 
-            if (numberOfPlayers == 1)
-            {
-                //TODO
-                Console.WriteLine("1 играч");
-            }
-            else if (numberOfPlayers == 2)
-            {
-                //TODO
-                Console.WriteLine("2 играчи");
-            }
+                if (numberOfPlayers == 1)
+                {
+                    //TODO
+                    wrongUserChoiceInput = false;
+                    Console.WriteLine("1 играч");
+                }
+                else if (numberOfPlayers == 2)
+                {
+                    //TODO
+                    wrongUserChoiceInput = false;
+                    Console.WriteLine("2 играчи");
+                }
+                else
+                {
+                    Console.WriteLine("Моля, въведете коректен брой играчи! 1 или 2:");
+                }
 
-            return;
+            }
         }
     }
 }
