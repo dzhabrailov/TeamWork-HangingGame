@@ -3,13 +3,11 @@
 ///	  //                ||=||||==||||\\|||| __ || ||\\|||| __            \\ 
 ///	 /                  || ||||  |||| \|| \\// || || \|| \\//              \
 /// /                 |-----|                                               \
-/// \                 |    \0/                                              /
-///  \                |    ()                                              / 
-///   \\	          |   _/\_                                           //
-///	   \\          ___|___                                              //  
+/// \                 |    \☺/                                              /
+///  \                |     ▌                                              / 
+///   \\	          |   _/\_               Powered by "Hsu Hao" Team   //
+///	   \\          ___|___            Online sudents on TelerikAcademy  //  
 ///	    \\\***********************************************************///
-
-//
 
 using System;
 
@@ -117,7 +115,7 @@ namespace Hanging
             Console.Write(new string(VERTICAL_DASH, 1));
             Console.WriteLine(new string(LEFT_DASH, 1).PadLeft(47));
 
-            //the gibbet (human arms and head) \   |   \0/   /
+            //the gibbet (human arms and head) \   |   \☺/   /
             Console.Write(new string(LEFT_DASH, 1).PadLeft(14));
             Console.Write(new string(VERTICAL_DASH, 1).PadLeft(17));
             Console.Write(new string(EMPTY_SPACE, 4));
@@ -129,9 +127,10 @@ namespace Hanging
             //the gibbet (human body)  \     |    ()     /
             Console.Write(new string(LEFT_DASH, 1).PadLeft(15));
             Console.Write(new string(VERTICAL_DASH, 1).PadLeft(16));
-            Console.Write(new string(EMPTY_SPACE, 4));
-            Console.Write(new string(OPEN_BRACKET, 1));
-            Console.Write(new string(CLOSE_BRACKET, 1));
+            Console.Write(new string(EMPTY_SPACE, 5));
+            Console.Write(new string(BODY, 1));
+            //Console.Write(new string(OPEN_BRACKET, 1));
+            //Console.Write(new string(CLOSE_BRACKET, 1));
             Console.WriteLine(new string(RIFHT_DASH, 1).PadLeft(46));
 
             //the gibbet (human foots) \\     |  _/\_      //
@@ -142,14 +141,16 @@ namespace Hanging
             Console.Write(new string(RIFHT_DASH, 1));
             Console.Write(new string(LEFT_DASH, 1));
             Console.Write(new string(UNDER_SCORE, 1));
-            Console.WriteLine(new string(RIFHT_DASH, 2).PadLeft(44));
+            Console.Write(TEAM_NAME.PadLeft(39, EMPTY_SPACE));
+            Console.WriteLine(new string(RIFHT_DASH, 2).PadLeft(5));
 
             //the gibbet bottom \\ _____|_____   //
             Console.Write(new string(LEFT_DASH, 2).PadLeft(18));
             Console.Write(new string(UNDER_SCORE, 3).PadLeft(12));
             Console.Write(new string(VERTICAL_DASH, 1));
             Console.Write(new string(UNDER_SCORE, 3));
-            Console.WriteLine(new string(RIFHT_DASH, 2).PadLeft(47));
+            Console.Write(TELERIK_ACADEMY.PadLeft(43, EMPTY_SPACE));
+            Console.WriteLine(new string(RIFHT_DASH, 2).PadLeft(4));
 
             #endregion
 

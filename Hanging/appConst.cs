@@ -6,13 +6,14 @@
     public class appConst
     {
         //team 
-        internal const string TEAM_NAME = "Team: Hsu Hao";
+        internal const string TEAM_NAME = "Powered by \"Hsu Hao\" Team";
 
         //Telerik Academy
-        internal const string TELERIK_ACADEMY = "TelerikAcademy";
+        internal const string TELERIK_ACADEMY = "Online sudents on TelerikAcademy";
 
         //declare the auxiliary symbols for print logo 
-        internal const char HEAD = '0';
+        internal const char BODY ='\u258c';
+        internal const char HEAD = '\u263A';
         internal const char DASH = '-';
         internal const char ASTERIX = '*';
         internal const char LEFT_DASH = '\\';
