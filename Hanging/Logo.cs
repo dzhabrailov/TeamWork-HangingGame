@@ -21,18 +21,18 @@ namespace Hanging
         public static void PrintLogo()
         {
             //headline
-            Console.Write(new string(RIFHT_DASH, 3).PadLeft(20));
+            Console.Write(new string(RIGHT_DASH, 3).PadLeft(20));
             Console.Write(new string(ASTERIX, 57));
             Console.WriteLine(new string(LEFT_DASH, 3));
 
             //HANGING 
             #region first row
-            Console.Write(new string(RIFHT_DASH, 2).PadLeft(18));
+            Console.Write(new string(RIGHT_DASH, 2).PadLeft(18));
             Console.Write(new string(VERTICAL_DASH, 2).PadLeft(16));
             Console.Write(new string(EMPTY_SPACE, 1));
             Console.Write(new string(VERTICAL_DASH, 2));
             Console.Write(new string(EMPTY_SPACE, 1));
-            Console.Write(new string(RIFHT_DASH, 2));
+            Console.Write(new string(RIGHT_DASH, 2));
             Console.Write(new string(LEFT_DASH, 2));
             Console.Write(new string(EMPTY_SPACE, 1));
             Console.Write(new string(VERTICAL_DASH, 2));
@@ -40,7 +40,7 @@ namespace Hanging
             Console.Write(new string(EMPTY_SPACE, 1));
             Console.Write(new string(VERTICAL_DASH, 2));
             Console.Write(new string(EMPTY_SPACE, 1));
-            Console.Write(new string(RIFHT_DASH, 2));
+            Console.Write(new string(RIGHT_DASH, 2));
             Console.Write(new string(LEFT_DASH, 2));
             Console.Write(new string(EMPTY_SPACE, 1));
             Console.Write(new string(VERTICAL_DASH, 2));
@@ -50,14 +50,14 @@ namespace Hanging
             Console.Write(new string(EMPTY_SPACE, 1));
             Console.Write(new string(VERTICAL_DASH, 2));
             Console.Write(new string(EMPTY_SPACE, 1));
-            Console.Write(new string(RIFHT_DASH, 2));
+            Console.Write(new string(RIGHT_DASH, 2));
             Console.Write(new string(LEFT_DASH, 2));
             Console.Write(new string(EMPTY_SPACE, 1));
             Console.WriteLine(new string(LEFT_DASH, 2).PadLeft(11));
            
             #endregion
             #region second row
-            Console.Write(new string(RIFHT_DASH, 2).PadLeft(17));
+            Console.Write(new string(RIGHT_DASH, 2).PadLeft(17));
             Console.Write(new string(VERTICAL_DASH, 2).PadLeft(17));
             Console.Write(new string(EQUALLY, 1));
             Console.Write(new string(VERTICAL_DASH, 4));
@@ -80,7 +80,7 @@ namespace Hanging
 
             #endregion
             #region third row
-            Console.Write(new string(RIFHT_DASH, 1).PadLeft(15));
+            Console.Write(new string(RIGHT_DASH, 1).PadLeft(15));
             Console.Write(new string(VERTICAL_DASH, 2).PadLeft(19));
             Console.Write(new string(EMPTY_SPACE, 1));
             Console.Write(new string(VERTICAL_DASH, 4));
@@ -91,7 +91,7 @@ namespace Hanging
             Console.Write(new string(VERTICAL_DASH, 2));
             Console.Write(new string(EMPTY_SPACE, 1));
             Console.Write(new string(LEFT_DASH, 2));
-            Console.Write(new string(RIFHT_DASH, 2));
+            Console.Write(new string(RIGHT_DASH, 2));
             Console.Write(new string(EMPTY_SPACE, 1));
             Console.Write(new string(VERTICAL_DASH, 2));
             Console.Write(new string(EMPTY_SPACE, 1));
@@ -101,7 +101,7 @@ namespace Hanging
             Console.Write(new string(VERTICAL_DASH, 2));
             Console.Write(new string(EMPTY_SPACE, 1));
             Console.Write(new string(LEFT_DASH, 2));
-            Console.Write(new string(RIFHT_DASH, 2));
+            Console.Write(new string(RIGHT_DASH, 2));
 
             Console.WriteLine(new string(LEFT_DASH, 1).PadLeft(14));
 
@@ -109,7 +109,7 @@ namespace Hanging
 
             #region The Gibbet
             //the gibbet header /   | ------ |    \
-            Console.Write(new string(RIFHT_DASH, 1).PadLeft(14));
+            Console.Write(new string(RIGHT_DASH, 1).PadLeft(14));
             Console.Write(new string(VERTICAL_DASH, 1).PadLeft(17));
             Console.Write(new string(DASH, 5));
             Console.Write(new string(VERTICAL_DASH, 1));
@@ -121,8 +121,8 @@ namespace Hanging
             Console.Write(new string(EMPTY_SPACE, 4));
             Console.Write(new string(LEFT_DASH, 1));
             Console.Write(new string(HEAD, 1));
-            Console.Write(new string(RIFHT_DASH, 1));
-            Console.WriteLine(new string(RIFHT_DASH, 1).PadLeft(46));
+            Console.Write(new string(RIGHT_DASH, 1));
+            Console.WriteLine(new string(RIGHT_DASH, 1).PadLeft(46));
 
             //the gibbet (human body)  \     |    ()     /
             Console.Write(new string(LEFT_DASH, 1).PadLeft(15));
@@ -131,18 +131,18 @@ namespace Hanging
             Console.Write(new string(BODY, 1));
             //Console.Write(new string(OPEN_BRACKET, 1));
             //Console.Write(new string(CLOSE_BRACKET, 1));
-            Console.WriteLine(new string(RIFHT_DASH, 1).PadLeft(46));
+            Console.WriteLine(new string(RIGHT_DASH, 1).PadLeft(46));
 
             //the gibbet (human foots) \\     |  _/\_      //
             Console.Write(new string(LEFT_DASH, 2).PadLeft(17));
             Console.Write(new string(VERTICAL_DASH, 1).PadLeft(14));
             Console.Write(new string(EMPTY_SPACE, 3));
             Console.Write(new string(UNDER_SCORE, 1));
-            Console.Write(new string(RIFHT_DASH, 1));
+            Console.Write(new string(RIGHT_DASH, 1));
             Console.Write(new string(LEFT_DASH, 1));
             Console.Write(new string(UNDER_SCORE, 1));
             Console.Write(TEAM_NAME.PadLeft(39, EMPTY_SPACE));
-            Console.WriteLine(new string(RIFHT_DASH, 2).PadLeft(5));
+            Console.WriteLine(new string(RIGHT_DASH, 2).PadLeft(5));
 
             //the gibbet bottom \\ _____|_____   //
             Console.Write(new string(LEFT_DASH, 2).PadLeft(18));
@@ -150,14 +150,14 @@ namespace Hanging
             Console.Write(new string(VERTICAL_DASH, 1));
             Console.Write(new string(UNDER_SCORE, 3));
             Console.Write(TELERIK_ACADEMY.PadLeft(43, EMPTY_SPACE));
-            Console.WriteLine(new string(RIFHT_DASH, 2).PadLeft(4));
+            Console.WriteLine(new string(RIGHT_DASH, 2).PadLeft(4));
 
             #endregion
 
             //footer
             Console.Write(new string(LEFT_DASH, 3).PadLeft(20));
             Console.Write(new string(ASTERIX, 57));
-            Console.WriteLine(new string(RIFHT_DASH, 3));
+            Console.WriteLine(new string(RIGHT_DASH, 3));
         }
 
         /// <summary>

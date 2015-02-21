@@ -17,7 +17,7 @@
         internal const char DASH = '-';
         internal const char ASTERIX = '*';
         internal const char LEFT_DASH = '\\';
-        internal const char RIFHT_DASH = '/';
+        internal const char RIGHT_DASH = '/';
         internal const char VERTICAL_DASH = '|';
         internal const char UNDER_SCORE = '_';
         internal const char EMPTY_SPACE = ' ';
