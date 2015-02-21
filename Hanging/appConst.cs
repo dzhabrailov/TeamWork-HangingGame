@@ -28,6 +28,6 @@
         internal const string GREETING = "Добре дошли!";
         internal const string CHOOSE_CATEGORY = "Моля, изберете желаната от Вас категория за игра: ";
         internal const string NUMBER_OF_CATEGORY = "<[ 1 - Държави ]> | <[ 2 - Градове ]> | <[ 3 - Други ]>";
-        internal const string CATEGORY_REQUEST = "Моля въведете числото за съответната категория -->> ";
+        internal const string CATEGORY_REQUEST = "Моля въведете число за съответната категория -->> ";
     }
 }
