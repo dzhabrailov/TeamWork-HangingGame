@@ -22,3 +22,6 @@ C:\Users\Valentin\Desktop\LAST VERSION\HangMan\HangMan\obj\Debug\HangMan.pdb
 C:\Users\Valentin\Desktop\LAST VERSION\HangMan\HangMan\bin\Debug\HangMan.exe
 C:\Users\Valentin\Desktop\LAST VERSION\HangMan\HangMan\bin\Debug\HangMan.pdb
 C:\Users\Valentin\Desktop\LAST VERSION\HangMan\HangMan\obj\Debug\HangMan.csprojResolveAssemblyReference.cache
+C:\Users\Valentin\Desktop\C#\HangMan GitHub\trunk\Hanging\bin\Debug\HangMan.exe.config
+C:\Users\Valentin\Desktop\C#\HangMan GitHub\trunk\Hanging\obj\Debug\HangMan.exe
+C:\Users\Valentin\Desktop\C#\HangMan GitHub\trunk\Hanging\obj\Debug\HangMan.pdb
