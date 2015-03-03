@@ -21,9 +21,6 @@ namespace Hanging
                 while (!int.TryParse(Console.ReadLine(), out userChoice))
                 {
                     Console.WriteLine("Моля, въведете число!");
-                    Console.WriteLine("За Държави - 1");
-                    Console.WriteLine("За Градове - 2");
-                    Console.WriteLine("За Други   - 3");
                 }
                 if (userChoice == 1 || userChoice == 2 || userChoice == 3)
                 {

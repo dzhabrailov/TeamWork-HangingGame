@@ -1,0 +1,24 @@
+c:\users\user\documents\visual studio 2013\Projects\HangMan\HangMan\bin\Debug\HangMan.exe.config
+c:\users\user\documents\visual studio 2013\Projects\HangMan\HangMan\bin\Debug\HangMan.exe
+c:\users\user\documents\visual studio 2013\Projects\HangMan\HangMan\bin\Debug\HangMan.pdb
+c:\users\user\documents\visual studio 2013\Projects\HangMan\HangMan\obj\Debug\HangMan.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\HangMan\HangMan\obj\Debug\HangMan.exe
+c:\users\user\documents\visual studio 2013\Projects\HangMan\HangMan\obj\Debug\HangMan.pdb
+C:\Users\Reni\Desktop\03.Methods\HangMan\HangMan\bin\Debug\HangMan.exe.config
+C:\Users\Reni\Desktop\03.Methods\HangMan\HangMan\obj\Debug\HangMan.exe
+C:\Users\Reni\Desktop\03.Methods\HangMan\HangMan\obj\Debug\HangMan.pdb
+C:\Users\Reni\Desktop\03.Methods\HangMan\HangMan\bin\Debug\HangMan.exe
+C:\Users\Reni\Desktop\03.Methods\HangMan\HangMan\bin\Debug\HangMan.pdb
+C:\Users\Reni\Desktop\03.Methods\HangMan\HangMan\obj\Debug\HangMan.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\HangMan\HangMan\bin\Debug\HangMan.exe.config
+C:\Users\user\Desktop\HangMan\HangMan\obj\Debug\HangMan.exe
+C:\Users\user\Desktop\HangMan\HangMan\obj\Debug\HangMan.pdb
+C:\Users\user\Desktop\HangMan\HangMan\bin\Debug\HangMan.exe
+C:\Users\user\Desktop\HangMan\HangMan\bin\Debug\HangMan.pdb
+C:\Users\user\Desktop\HangMan\HangMan\obj\Debug\HangMan.csprojResolveAssemblyReference.cache
+C:\Users\Valentin\Desktop\LAST VERSION\HangMan\HangMan\bin\Debug\HangMan.exe.config
+C:\Users\Valentin\Desktop\LAST VERSION\HangMan\HangMan\obj\Debug\HangMan.exe
+C:\Users\Valentin\Desktop\LAST VERSION\HangMan\HangMan\obj\Debug\HangMan.pdb
+C:\Users\Valentin\Desktop\LAST VERSION\HangMan\HangMan\bin\Debug\HangMan.exe
+C:\Users\Valentin\Desktop\LAST VERSION\HangMan\HangMan\bin\Debug\HangMan.pdb
+C:\Users\Valentin\Desktop\LAST VERSION\HangMan\HangMan\obj\Debug\HangMan.csprojResolveAssemblyReference.cache
